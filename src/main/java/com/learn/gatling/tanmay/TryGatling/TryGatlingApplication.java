@@ -3,7 +3,7 @@ package com.learn.gatling.tanmay.TryGatling;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.learn"})
 public class TryGatlingApplication {
 
 	public static void main(String[] args) {
